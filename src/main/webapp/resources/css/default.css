@@ -11,8 +11,11 @@ body {
     width: 400px;
     border: 1px solid #ddd;
     text-align: center;
-    margin: 100px auto 0;
+    margin: 50px auto 0;
     padding: 20px;
+}
+#page-header {
+    text-align: center;
 }
 input {
     width: 50px;
