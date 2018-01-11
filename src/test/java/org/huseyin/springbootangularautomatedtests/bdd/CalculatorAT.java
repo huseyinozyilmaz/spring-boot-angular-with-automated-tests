@@ -1,4 +1,4 @@
-package org.huseyin.springbootangularautomatedtests;
+package org.huseyin.springbootangularautomatedtests.bdd;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

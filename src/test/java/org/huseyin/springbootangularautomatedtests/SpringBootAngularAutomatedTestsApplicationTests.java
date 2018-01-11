@@ -11,6 +11,7 @@ public class SpringBootAngularAutomatedTestsApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("Running Unit Tests");
 	}
 
 }
