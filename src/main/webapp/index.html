@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.js"></script>
+    <script src="app/app.js"></script>
+
+    <link rel="stylesheet" href="resources/css/default.css">
+</head>
+<body ng-app="calculatorApp">
+    <div class="container" ng-controller="additionController as add">
+        <input type="number" ng-model="x">
+        <span class="operator">+</span>
+        <input type="number" ng-model="y">
+        <span class="operator">=</span>
+        <input type="number" ng-model="result">
+        <div>
+            <button id="calculate" ng-click="add.calc()">Calculate</button>
+        </div>
+    </div>
+</body>
+</html>
